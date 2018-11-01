@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 /**
  * Created by dougylee on 1/11/18.
+ *
  * We are going to create our version of the roulette game
  * Here are the rules of Roulette:
  *  • There are 10 numbers
@@ -42,7 +43,7 @@ import java.util.Scanner;
  * Make sure the user cannot bet more than what they have.
  * e.g. they have $10, they bet $20, the amount bet will be $10
  */
-public class Roulette {
+public class Challenge01Roulette {
 
     public static void main(String[] args) {
 
