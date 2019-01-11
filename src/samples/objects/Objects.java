@@ -20,4 +20,7 @@ public class Objects {
 
     }
 
+    public class Pet {
+
+    }
 }

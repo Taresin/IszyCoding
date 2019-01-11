@@ -15,7 +15,7 @@ public class RandomNumbers {
         System.out.println(randomNumber1);
 
         // Get a random number up from 0 to 9
-        int randomNumber2 = random.nextInt(10);
+        int randomNumber2 = random.nextInt(10) ;
         System.out.println(randomNumber2);
 
         // Get a random boolean
