@@ -1,0 +1,6 @@
+Trip{startTime=1562995365274,
+finishTime=1562995371233,
+origin='Belfield',
+destination='Canterbury',
+odoStart=87654,
+odoFinish=87888}
