@@ -382,6 +382,8 @@ public class ArrayPractice {
      *
      */
     public static void accessEx5(int[] givenArray) {
+        int sizeOfArray = givenArray.length;
+        System.out.println(sizeOfArray);
 
     }
 
@@ -394,6 +396,11 @@ public class ArrayPractice {
      * This function will be run three times with different sized arrays
      */
     public static void accessEx6(int[] givenArray) {
+        for (int i = 0; i < givenArray.length; i++) {
+            int currentNumber = givenArray[i];
+            System.out.println("current number " + currentNumber);
+        }
+
 
     }
 
@@ -410,7 +417,16 @@ public class ArrayPractice {
      */
     public static void accessEx7(String[] songArray) {
 
+
+        for (int i = 0; i < songArray.length; i++) {
+
+            String givenSongs = songArray[i];
+            System.out.println("Song Name " + givenSongs);
+
+        }
     }
+
+
 
     /**
      * ID checking
@@ -421,8 +437,21 @@ public class ArrayPractice {
      * You have three groups of students lining up. Therefore, this function will be run three times.
      */
     public static void accessEx8(int[] ageArray) {
+        //array for ages
+        //loop
+        //if statement
+        for (int i = 0; i <ageArray.length ; i++) {
+            int currentAge = ageArray[i];
+            if (currentAge < 18){
+                System.out.println("Access Denied " + "Age " + currentAge);
+            }
+            else ;
 
+        }
     }
+
+
+
 
     /**
      * Rental Income
@@ -432,6 +461,15 @@ public class ArrayPractice {
      * You will need a variable to keep track of how much you have counted up to.
      */
     public static void accessEx9(int[] rentArray) {
+
+        int newRent = 0;
+        for (int i = 0; i < rentArray.length ; i++) {
+            int currentRent = rentArray[i];
+            newRent = newRent + currentRent;
+            System.out.println("current rent is " + rentArray[i] + " Current total " + newRent);
+
+        }
+
 
     }
 
@@ -488,7 +526,9 @@ public class ArrayPractice {
      */
     public static void modificationEx1(){
         int[] familyAges = {27, 32, 54, 78};
+        familyAges[3] = 79;
     }
+
 
     /**
      * Ping Pong Scores
@@ -499,6 +539,9 @@ public class ArrayPractice {
      */
     public static void modificationEx2() {
         int[] pingPongScores = { 17, 5 };
+        pingPongScores[1] = 6;
+
+        
 
     }
 
@@ -512,6 +555,8 @@ public class ArrayPractice {
      * Update the array
      */
     public static void modificationEx3(int[] pingPongScores) {
+        //player 2 scored point = index 1
+        pingPongScores[1] = pingPongScores[1] + 1;
 
 
     }

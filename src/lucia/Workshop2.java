@@ -2,6 +2,7 @@ package lucia;
 
 import challenges.LeetCode01;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Workshop2 {
@@ -12,9 +13,10 @@ public class Workshop2 {
         // runExercise4Program();
         //runExercise5Program();
         //runExercise6Program();
-        runExercise7Program3();
+        //runExercise7Program3();
+        runExercise8Program();
 
-        trial2();
+        //trial2();
     }
 
     /*
@@ -356,5 +358,29 @@ for (int i = 0; i < myList.length; i++) { System.out.print(myList[i] + " ");
                 System.out.printf("There are %d x %dc coins\n", denomCount, currentDenomination);
             }
         }
+    }
+    /*
+     Exercise 8
+    Write a program that simulates die tosses.
+
+ 
+
+For example:
+You threw the die!
+It landed on: 6
+Or
+You threw the die!
+It landed on: 3
+     */
+    public static void  runExercise8Program (){
+
+        for (int i = 0; i < 6 ; i++) {
+            Random random = new Random();
+            int randomNumber = random.nextInt(5) + 1;
+            System.out.println("You threw the die!\n" + "It landed on: " + randomNumber);
+            
+        }
+
+
     }
 }
