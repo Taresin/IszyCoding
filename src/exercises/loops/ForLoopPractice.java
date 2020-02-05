@@ -1,4 +1,4 @@
-package exercises.forloops;
+package exercises.loops;
 
 public class ForLoopPractice {
 

@@ -1,4 +1,4 @@
-package exercises.forloops;
+package exercises.loops;
 
 public class NestedForLoopPractice {
     // You have a 3 digit password to crack.
