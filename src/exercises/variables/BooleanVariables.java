@@ -115,6 +115,9 @@ public class BooleanVariables {
      * Print out the boolean variable.
      */
     public static void exercise1() {
+        int customerAge = 14;
+        boolean isOldEnough = customerAge == 16;
+        System.out.println(isOldEnough);
 
     }
 
@@ -126,6 +129,9 @@ public class BooleanVariables {
      * Follow similar steps to exercise 1.
      */
     private static void exercise2() {
+        int dayOfMonth = 2;
+        boolean isFirstDay = dayOfMonth == 1;
+        System.out.println(isFirstDay);
 
     }
 
@@ -140,6 +146,10 @@ public class BooleanVariables {
      * Print out the boolean variable
      */
     private static void exercise3() {
+        int previousCard = 10;
+        int topCard = 5;
+        boolean canSlap = topCard == previousCard;
+        System.out.println(canSlap);
 
     }
 
@@ -157,6 +167,10 @@ public class BooleanVariables {
      * Print out the boolean variable
      */
     private static void exercise4() {
+        int previousCard = 10;
+        int topCard = 5;
+        boolean canSlap = topCard == previousCard + 1;
+        System.out.println(canSlap);
 
     }
 
@@ -171,6 +185,10 @@ public class BooleanVariables {
      * Print out the boolean variable
      */
     private static void exercise5() {
+        int previousCard = 10;
+        int topCard = 5;
+        boolean canSlap = topCard == previousCard + 1 || topCard == previousCard - 1;
+        System.out.println(canSlap);
 
     }
 }
